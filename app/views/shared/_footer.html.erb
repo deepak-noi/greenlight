@@ -14,7 +14,9 @@
 %>
 
 <footer class="footer pt-3">
-  <p class="text-center mb-1">Powered by <a target="_blank" href="www.noitechnologies.com">NOI Technologies</a></p>
+  <p class="text-center mb-1">
+      Powered by <%= link_to "www.noitechnologies.com", target: "_blank" do %>NOI Technologies
+  </p>
 </footer>
 
 <%= render "shared/components/cookie_warning" %>
